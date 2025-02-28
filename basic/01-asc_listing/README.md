@@ -14,6 +14,8 @@ Use `x16emu -bas hello.bas` to load into the X16(emu).
 There, use `RUN` to run the program which does only output some stuff in 40-char mode.
 
 Or, use `x16emu -bas hello.bas -run` to directly start it.
+Since it changes the screen to a 40-characters screen, you should note
+that the F4 key followed by ENTER allows it to toggle the video mode.
 
 ## time
 
