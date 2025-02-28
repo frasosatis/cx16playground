@@ -29,3 +29,10 @@ Should load the ASCII listing, run it and simply show the current time.
 ## wikipedia
 
 Simple example taken from the BASIC wikipedia article, converted to uppercase.
+
+## charmix
+
+Simple demonstration of lowercase and uppercase letters, which depending on
+the mode are uppercase letters or the PETSCII graphics characters. It also
+mentions the key combination (Shift + Alt) to toggle this.
+
