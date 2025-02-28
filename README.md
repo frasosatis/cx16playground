@@ -32,5 +32,7 @@ Save the file with `SAVE <source>.PRG` if required.
 
 Use `x16emu -prg <source>.PRG -run` to start the emulator and run it.
 
+See **basic/01-asc_listing** for further examples.
+
 # cc65
 
