@@ -2,7 +2,8 @@
 
 These can easily be created on a host computer under Windows(tm), Linux or Mac.
 Since it contains mostly ASCII characters, it can be freely edited with
-whatever editor is preferred.
+whatever editor is preferred. This is the "original" way of BASIC with line
+numbers and stuff.
 
 With `x16emu -bas <file>.bas` it is loaded into the X16(emu) and then listed
 automatically on the screen. For longer listings, this might take a while so
