@@ -9,6 +9,14 @@ With `x16emu -bas <file>.bas` it is loaded into the X16(emu) and then listed
 automatically on the screen. For longer listings, this might take a while so
 it might be a good idea to save the binary BASIC file inside of the emulator.
 
+## bas2prg.sh
+
+The bash shell script `./bas2prg.sh` does exactly this by invoking the
+X16emu loading a file and saving it as .PRG, so that it can later be loaded
+by `x16emu -prg <file>.PRG`. It tries to obtain the location of an installed
+x16emu, so it works only if this is existing in the path (see command
+`which x16emu`).
+
 ## hello
 
 Use `x16emu -bas hello.bas` to load into the X16(emu).
@@ -36,4 +44,3 @@ Simple example taken from the BASIC wikipedia article, converted to uppercase.
 Simple demonstration of lowercase and uppercase letters, which depending on
 the mode are uppercase letters or the PETSCII graphics characters. It also
 mentions the key combination (Shift + Alt) to toggle this.
-
