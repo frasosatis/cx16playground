@@ -22,7 +22,7 @@ local copy of the extracted binary package (e.g. x16emu_linux-x86_64-r48.zip).
 Since this requires sudo-rights on the system, another way is of course to
 set the local path to the emulator in your environment.
 
-## ASCII listings
+## ASCII listings (good old ones, including line numbering)
 
 Use `x16emu -bas <source>.BAS` to load an ASCII-coded basic file into the emulator.
 
