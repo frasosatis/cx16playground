@@ -17,6 +17,11 @@ by `x16emu -prg <file>.PRG`. It tries to obtain the location of an installed
 x16emu, so it works only if this is existing in the path (see command
 `which x16emu`).
 
+## clean.sh
+
+Small bash shell script which simply removes stuff which has been created
+by the bas2prg.sh script.
+
 ## hello
 
 Use `x16emu -bas hello.bas` to load into the X16(emu).
@@ -50,3 +55,8 @@ mentions the key combination (Shift + Alt) to toggle this.
 Simply shows the code of the pressed key - in HEX, if any. Using <ESC> ends
 the polling loop. If <ENTER> is pressed, a new line is used. If the screen
 does not fit, simply delete line 0 which sets a `SCREEN 1`.
+
+## veratext
+
+Simple example using VERA to output text and text color, might not work under
+all circumstances as the base address might have been set differently.
