@@ -3,16 +3,27 @@ Commander X16 playground
 
 Collection of various information around the Commander X16 (tested mostly/only with emulator)
 
-  * Website: https://www.commanderx16.com/
+  * Official Website: https://www.commanderx16.com/
   * Emulator: https://cx16forum.com/forum/viewforum.php?f=30
     * current version: Commander X16 KERNAL and emulator R48
     * Github: https://github.com/X16Community/x16-emulator/releases/tag/r48
   * RefManual: https://github.com/X16Community/x16-docs/blob/master/README.md
   * US Site to buy the hardware: https://texelec.com/product-category/commander-x16/
+  * UK Site to buy a nice case: https://lazer3d.com/
+  * Assembly language course from SlithyMatt: 
+    * Youtube: https://www.youtube.com/watch?v=Y9j_QDqp_fM
+    * Github: https://github.com/SlithyMatt/x16-assembly-tutorial
+  * prog8 - Another language
+    * ReadTheDocs: https://prog8.readthedocs.io/en/latest/index.html
+    * Github: https://github.com/irmen/prog8
 
-  * Assembly language course: https://github.com/SlithyMatt/x16-assembly-tutorial
+# What do I have
 
-# x16emu
+Personally, I have a Commander X16 Developer Edition with the Developer Edition Upgrade. Mostly for WIFI stuff I have also the Commander X16 921.6Kbps Serial & ESP32 Network Card - which flawlessly allows to "dial into" my Linux server via ssh.
+
+I am also still using the X16 Emulator to make some quick tests without the hardware, which recently happily lives in the official Lazer3D pizza-box case. A riser card (the version for the pizza-box case) was absolutely required to install the serial card in a safe manner into the case.
+ 
+# x16emu / cc65 toolset
 
 ## obtaining the emulator (and Compiler / Assembler)
 
