@@ -10,19 +10,22 @@ Collection of various information around the Commander X16 (tested mostly/only w
   * RefManual: https://github.com/X16Community/x16-docs/blob/master/README.md
   * US Site to buy the hardware: https://texelec.com/product-category/commander-x16/
 
+  * Assembly language course: https://github.com/SlithyMatt/x16-assembly-tutorial
+
 # x16emu
 
-## obtaining the emulator
+## obtaining the emulator (and Compiler / Assembler)
 
 See the link in the introduction.
 
 Under Linux, since this is normally not a distribution-provided package,
-I use a simple link from /usr/bin/x16 (yes, I am lazy, sorry) to the
-local copy of the extracted binary package (e.g. x16emu_linux-x86_64-r48.zip).
-Since this requires sudo-rights on the system, another way is of course to
-set the local path to the emulator in your environment.
+I used a simple link from /usr/bin/x16 (yes, I am lazy, sorry) to the
+local copy of the extracted binary package. Since this requires sudo-rights
+on the system, another way is of course to set the local path to the emulator in your environment.
 
-## obtaining the emulator
+A better way is to follow the instructions of the Assembler tutorial which details how to get cc65 (Assembler / C Compiler) and x16emu (the Emulator).
+
+## keys inside the emulator
 
 Some key combinations which might come in handy:
 
@@ -52,3 +55,7 @@ If the program ends normally, while it might still be possible to **LIST** the
 single line, entering **RUN** again would only enter the monitor.
 
 Only useful way is to reset the emulator using Strg+R at this point.
+
+# Assembler
+
+See [asm/](asm/README.md) for more information / examples.
