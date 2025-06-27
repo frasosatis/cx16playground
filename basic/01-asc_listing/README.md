@@ -44,3 +44,9 @@ Simple example taken from the BASIC wikipedia article, converted to uppercase.
 Simple demonstration of lowercase and uppercase letters, which depending on
 the mode are uppercase letters or the PETSCII graphics characters. It also
 mentions the key combination (Shift + Alt) to toggle this.
+
+## keypoll
+
+Simply shows the code of the pressed key - in HEX, if any. Using <ESC> ends
+the polling loop. If <ENTER> is pressed, a new line is used. If the screen
+does not fit, simply delete line 0 which sets a `SCREEN 1`.
