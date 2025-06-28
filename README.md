@@ -55,7 +55,7 @@ Save the file (inside the emulator) with `SAVE <source>.PRG` if required.
 
 On the host, use `x16emu -prg <source>.PRG -run` to start the emulator and run it.
 
-See [basic/01-asc_listing](basic/01-asc_listing/README.md) for more information / examples.
+See [basic/01-asc-listing](basic/01-asc-listing/README.md) for more information / examples.
 
 # cc65
 

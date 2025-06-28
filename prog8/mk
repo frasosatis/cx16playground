@@ -1,0 +1,22 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]
+then
+    echo "use mk <file> with or without .p8 extension"
+else
+    USEEXT=""
+    if [[ $1 =~ \.p8$ ]]
+    then
+        USEEXT=""
+    else
+        USEEXT=".p8"
+    fi
+    filename=$(basename $1)
+    EMUFILE="${filename%.*}"
+
+    prog8c -target cx16 $1$USEEXT
+    if [[ $? -eq 0 ]];
+    then
+        x16emu -run -prg $EMUFILE.prg
+    fi
+fi
