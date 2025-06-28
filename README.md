@@ -47,13 +47,13 @@ Some key combinations which might come in handy:
 
 ## ASCII listings (good old ones, including line numbering)
 
-Use `x16emu -bas <source>.BAS` to load an ASCII-coded basic file into the emulator.
+Use `x16emu -bas <source>.BAS` on the host machine to load an ASCII-coded basic file into the emulator.
 
 Make sure that the commands in the file are all in uppercase.
 
-Save the file with `SAVE <source>.PRG` if required.
+Save the file (inside the emulator) with `SAVE <source>.PRG` if required.
 
-Use `x16emu -prg <source>.PRG -run` to start the emulator and run it.
+On the host, use `x16emu -prg <source>.PRG -run` to start the emulator and run it.
 
 See [basic/01-asc_listing](basic/01-asc_listing/README.md) for more information / examples.
 
@@ -70,3 +70,7 @@ Only useful way is to reset the emulator using Strg+R at this point.
 # Assembler
 
 See [asm/](asm/README.md) for more information / examples.
+
+# Prog8
+
+See [prog8/](prog8/README.md) for more information / examples.
