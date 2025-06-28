@@ -60,3 +60,7 @@ does not fit, simply delete line 0 which sets a `SCREEN 1`.
 
 Simple example using VERA to output text and text color, might not work under
 all circumstances as the base address might have been set differently.
+
+## cselect
+
+Simple raw basic (no VERA) example of COLOR and key input.

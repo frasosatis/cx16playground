@@ -1,0 +1,3 @@
+#!/bin/bash
+prog8c -target cx16 $1.p8
+x16emu -run -prg $1.prg
