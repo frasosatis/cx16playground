@@ -1,0 +1,15 @@
+#!/bin/bash
+
+for filename in `ls *.p8`; do
+  echo "========================================" $filename "============================"
+
+  prog8c -target cx16 $filename
+  if [[ $? -eq 0 ]];
+  then
+      curfile=$(basename $filename)
+      runfile="${filename%.*}.prg"
+      echo "    >>>>>>>>>>>>>>>>>> " $runfile " <<<<<<<<<<<<<<<<<"
+      x16emu -run -prg $runfile
+  fi
+
+done

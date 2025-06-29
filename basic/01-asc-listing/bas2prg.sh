@@ -15,6 +15,7 @@ function mkbas2prg {
 
 if [ -f $X16EMULATOR ]; then
     mkbas2prg "hello"
+    mkbas2prg "filerdwr"
     mkbas2prg "charmix"
     mkbas2prg "cselect"
     mkbas2prg "time"
