@@ -22,7 +22,29 @@ Collection of various information around the Commander X16 (tested mostly/only w
 Personally, I have a Commander X16 Developer Edition with the Developer Edition Upgrade. Mostly for WIFI stuff I have also the Commander X16 921.6Kbps Serial & ESP32 Network Card - which flawlessly allows to "dial into" my Linux server via ssh.
 
 I am also still using the X16 Emulator to make some quick tests without the hardware, which recently happily lives in the official Lazer3D pizza-box case. A riser card (the version for the pizza-box case) was absolutely required to install the serial card in a safe manner into the case.
- 
+
+## Basic, C, Prog8 or Assembler?
+
+Actually, it does not really matter.
+
+Of all the languages, BASIC is the easiest to learn and obviously slowest.
+It is already there on the target (or emulator) after powering on so without
+much preparation or even loading of some program, you can simply start.
+
+C might be another step, but can have a larger footprint due to usage of its libraries.
+It also requires a compiler and linker to create the executable program.
+
+Prog8 is an intermediate language, intense studying of examples and library
+sources are probably required. It uses an Assembler to create the final
+program.
+
+Assembler is the fastest of all the things and can have the smallest
+footprint, depending on how optimized the code is. It is the nearest to the
+target-CPU so you need to know a lot about the machine you are programming
+for. It is also not very portable between different systems, so if you are
+learning 6502 Assembler (e.g. for the Commander X16), you cannot use much
+of the knowlege if you later want to target some ARM or other processor.
+
 # x16emu / cc65 toolset
 
 ## obtaining the emulator (and Compiler / Assembler)
