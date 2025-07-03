@@ -29,3 +29,9 @@ Before v11.4, I directly used the .jar file with some alias.
 Syntax-Files are provided, unfortunately I did not get the one for Visual
 Studio Code working, whereas the ones for Sublime Text and nano worked
 without much hassle.
+
+## Makefile, build scripts and examples
+
+A Makefile is provided which should be able to perform building - if the above mentioned
+environment is set up. Also some example build scripts are provided which might help. The
+Makefile requires GNU Make.
