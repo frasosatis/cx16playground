@@ -9,6 +9,8 @@ With `x16emu -bas <file>.bas` it is loaded into the X16(emu) and then listed
 automatically on the screen. For longer listings, this might take a while so
 it might be a good idea to save the binary BASIC file inside of the emulator.
 
+To leave the emulator, you can also enter `POWEROFF` to close it.
+
 ## bas2prg.sh
 
 The bash shell script `./bas2prg.sh` does exactly this by invoking the
@@ -64,3 +66,7 @@ all circumstances as the base address might have been set differently.
 ## cselect
 
 Simple raw basic (no VERA) example of COLOR and key input.
+
+## filerdwr.bas
+
+Simple text file writing / reading.
