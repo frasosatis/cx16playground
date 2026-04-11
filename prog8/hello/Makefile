@@ -2,21 +2,21 @@
 # Simple Makefile for prog8 environment
 #
 TARGET		:= hello
-
+OUTDIR          := bin
 PROG8		:= prog8c
 PROG8FLAGS 	:= -target cx16
 
-all: $(TARGET).prg
+all: bin/$(TARGET).prg
 
-%.prg: %.p8
-	$(PROG8) $(PROG8FLAGS) $<
+$(OUTDIR)/%.prg: %.p8
+	$(PROG8) $(PROG8FLAGS) $< -out $(OUTDIR)/
 
 .PHONY: clean
 clean:
-	-rm $(TARGET).prg
-	-rm $(TARGET).asm
-	-rm $(TARGET).vice-mon-list
+	-rm $(OUTDIR)/$(TARGET).prg
+	-rm $(OUTDIR)/$(TARGET).asm
+	-rm $(OUTDIR)/$(TARGET).vice-mon-list
 
 .PHONY: run
 run: all
-	x16emu -run -prg $(TARGET).prg
+	x16emu -run -prg $(OUTDIR)/$(TARGET).prg

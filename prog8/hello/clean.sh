@@ -1,5 +1,5 @@
 #!/bin/bash
-rm hello.asm
-rm hello.prg
-rm hello.vice-mon-list
+rm bin/hello.asm
+rm bin/hello.prg
+rm bin/hello.vice-mon-list
 
